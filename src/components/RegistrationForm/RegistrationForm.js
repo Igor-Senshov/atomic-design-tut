@@ -18,7 +18,7 @@ class RegistrationForm extends React.Component {
         };
     }
 
-    onChange = (event) => {
+    onChange = event => {
         const user = this.state.user;
         user[event.target.name] = event.target.value;
         this.setState({user});
